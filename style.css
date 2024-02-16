@@ -1,0 +1,108 @@
+*
+{
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'PT Sans', sans-serif; */
+    font-weight: bold;
+}
+
+form
+{
+    margin: 15px 15px;
+}
+body
+{
+    background-color: #d2e3fd;
+}
+
+.box1
+{
+    background-color: white;
+    margin: 50px 50px;
+    padding: 50px 50px;
+    width: 50%;
+    text-align: center; /*align the content of the form in centre*/
+}
+h1
+{
+    color: blue;
+    margin: 15px 15px;
+}
+
+
+input[type=text]
+{
+    padding: 15px 15px;
+    margin: 10px 10px;
+    border-radius: 7px;
+    border: 0ch;
+    color: blue;
+
+}
+input[type=tel]
+{
+    padding: 15px 15px;
+    margin: 10px 10px;
+    border-radius: 7px;
+    border: 0ch;
+}
+input[type=email]
+{
+    padding: 15px 15px;
+    margin: 10px 10px;
+    border-radius: 7px;
+    border-color: white;
+    border: 0ch;
+
+}
+
+input[type=button]
+{
+    padding: 18px 18px;
+    margin: 10px 10px;
+    border: 0ch;
+    border-radius: 25px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    width: 22%;
+}
+
+input[type=button]:hover
+{
+    background-color: rgb(53, 57, 255);
+}
+
+.Name
+{
+    background-color: #e7e9fe;
+    width: 31.5%;
+}
+.Contact
+{
+    background-color: #dce1ff;
+    width: 31.5%;
+}
+
+.Address
+{
+    background-color: #c7cdfd;
+    width: 70%;
+}
+
+.Message 
+{
+    background-color: #a5b1fd;
+    width: 70%;
+    height: 60px;
+}
+
+h2
+{
+    font-size: medium;
+    font-weight: bold;
+    color: aquamarine;
+}
+
+/* ::placeholder {
+    color: blue; /*to change the color of placeholder*/
+    /* font-weight: bold;*/ 
